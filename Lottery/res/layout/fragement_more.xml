@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@color/title"
+            android:gravity="center"
+            android:text="更多"
+            android:textColor="#ffffff"
+            android:textSize="18dp" >
+        </TextView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="@color/bg_little_gary" />
+
+    <Button
+        android:id="@+id/lijie"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/more_selector"
+        android:drawableRight="@drawable/more1"
+        android:gravity="left|center"
+        android:text="    历届中奖信息" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="@color/bg_little_gary" />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/more_selector"
+        android:drawableRight="@drawable/more1"
+        android:gravity="left|center"
+        android:text="    电话咨询" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="@color/bg_little_gary" />
+
+    	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/more_selector"
+            android:gravity="left|center"
+            android:text="    系统推送" />
+<CheckBox 
+    android:layout_margin="2dp"
+    android:id="@+id/cb"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="8"
+    android:checked="true"
+    android:layout_gravity="right"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:background="#F0F0F2" />
+
+    <Button
+        android:id="@+id/introduce"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/more_selector"
+        android:drawableRight="@drawable/more1"
+        android:gravity="left|center"
+        android:text="    奖金分配" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/more_selector"
+        android:drawableRight="@drawable/more1"
+        android:gravity="left|center"
+        android:text="    关于版本" />
+
+    <Button
+        android:id="@+id/us"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/more_selector"
+        android:drawableRight="@drawable/more1"
+        android:gravity="left|center"
+        android:text="    关于我们" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/more_selector"
+        android:drawableRight="@drawable/more1"
+        android:gravity="left|center"
+        android:text="    帮助" />
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_weight="3.8"
+        android:background="@color/white" >
+
+        <ImageView
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:id="@+id/lottery"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/way_c" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="bottom|left"
+                android:text="任选9   1元/酬"
+                android:textColor="@color/main_center_blue"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/detial"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="7dp"
+                android:layout_weight="2"
+                android:text="国足：不单  1：0|国足：香港 0：1|国足：不单  1：0|国足：香港 0：1"
+                android:textColor="#ff7D7D7D" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:text="已购: "
+                android:textColor="@color/deep_green"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/brought"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/homejt"
+                android:gravity="left|center_vertical"
+                android:text=" 120"
+                android:textColor="@color/deep_green"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

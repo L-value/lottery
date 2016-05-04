@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F2"
+    android:orientation="vertical" >
+  <LinearLayout
+         android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title" >
+
+        
+        <ImageView
+            android:id="@+id/back"
+            android:background="@drawable/iconfont_fanhui"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:layout_weight="3" />
+
+
+        <TextView
+          
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center" 
+            android:text="充 值 "
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_weight="4"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="账户余额:"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_weight="4"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="充值金额:"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/input"
+            android:inputType="number"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="left|center"
+        android:text="选择付款方式:" />
+
+    
+
+    <LinearLayout
+        android:id="@+id/pay_yinlian"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:background="@drawable/raw_yinlian" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#F0F0F2"
+            android:gravity="left|center"
+            android:text="  银联支付"
+            android:textColor="#c43334" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pay_alipay"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:background="@drawable/raw_aipay" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#F0F0F2"
+            android:gravity="left|center"
+            android:text="  支付宝支付"
+            android:textColor="#03A9f4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pay_weixin"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:background="@drawable/raw_weixin" />
+
+      <Button
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#F0F0F2"
+            android:gravity="left|center"
+            android:text="  微信支付"
+            android:textColor="#6cB63f" />    </LinearLayout>
+<View android:layout_width="fill_parent"
+    android:layout_height="20dp"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="38dp" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+
+        <Button
+            android:id="@+id/pay"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/sure_buy"
+            android:textColor="#ffffff" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="充值后到账须1-5分钟,请耐心等待，您可以刷新余额，查看是否到账。" />
+
+</LinearLayout>

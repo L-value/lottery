@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="#ffffff"
+    android:orientation="vertical" >
+
+    	<LinearLayout
+    	       android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:layout_weight="3"
+            android:background="@drawable/iconfont_fanhui" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="用户注册 "
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="20.0dip"
+        
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="1px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="邮    箱:"
+                android:textColor="@android:color/black"
+                android:textSize="18.0sp" />
+
+            <com.example.myviews.ClearEditText
+                android:drawableRight="@drawable/search_delete_icon"
+                android:id="@+id/re_email"
+                android:layout_width="1px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="15.0dip"
+                android:layout_weight="3"
+                android:background="@android:color/white"
+                android:hint="请输入邮箱"
+                android:inputType="textEmailAddress"
+                android:maxLength="20"
+                
+                android:textColor="#ff545454"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#E2E2E2"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="1px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="用户名:"
+                android:textColor="@android:color/black"
+                android:textSize="18.0sp" />
+
+            <com.example.myviews.ClearEditText
+                android:drawableRight="@drawable/search_delete_icon"
+                android:id="@+id/re_username"
+                android:layout_width="1px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="15.0dip"
+                android:layout_weight="3"
+                android:background="@android:color/white"
+                android:hint="请输入用户名"
+                android:maxLength="20"
+                android:textColor="#ff545454"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#E2E2E2"
+          />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="1px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="密    码:"
+                android:textColor="@android:color/black"
+                android:textSize="18.0sp" />
+
+            <com.example.myviews.ClearEditText
+                android:drawableRight="@drawable/search_delete_icon"
+                android:id="@+id/re_pass"
+                android:layout_width="1px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="15.0dip"
+                android:layout_weight="3"
+                android:background="@android:color/white"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:textColor="#ff545454"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#E2E2E2"
+           />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="1px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.20"
+                android:gravity="right"
+                android:text="确认密码:"
+                android:textColor="@android:color/black"
+                android:textSize="18.0sp" />
+
+            <com.example.myviews.ClearEditText
+                android:drawableRight="@drawable/search_delete_icon"
+                android:id="@+id/re_passs"
+                android:layout_width="1px"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="15.0dip"
+                android:layout_weight="3"
+                android:background="@android:color/white"
+                android:hint="确认密码"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:textColor="#ff545454"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginTop="10.0dip"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/policy"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+             />
+		<View 
+		    android:layout_width="30dp"
+		    android:layout_height="30dp"/>
+        <TextView
+            android:id="@+id/look"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="同意相关政策和注册条约" />
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="182dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginTop="20.0dip"
+        android:background="@color/title"
+        android:layout_gravity="center"
+        android:text="注 册"
+        android:textColor="@color/white"
+        android:textSize="18.0dp" />
+
+</LinearLayout>

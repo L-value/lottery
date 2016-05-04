@@ -1,0 +1,201 @@
+# view res/layout/activity_customer.xml #generated:67
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:19
+# view res/layout/abc_action_bar_decor_include.xml #generated:47
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:29
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:52
+-keep class android.support.v7.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:31
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:40
+# view res/layout/abc_action_mode_bar.xml #generated:19
+-keep class android.support.v7.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:25
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:35
+-keep class android.support.v7.internal.widget.ActionBarView { <init>(...); }
+
+# view res/layout/abc_action_bar_home.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarView$HomeView { <init>(...); }
+
+# view res/layout/abc_action_bar_tabbar.xml #generated:17
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.internal.widget.LinearLayoutICS { <init>(...); }
+
+# view v11\res/layout-v11/abc_action_bar_decor.xml #generated:17
+# view v11\res/layout-v11/abc_simple_decor.xml #generated:17
+-keep class android.support.v7.internal.widget.NativeActionModeAwareLayout { <init>(...); }
+
+# view res/layout/abc_action_bar_tab.xml #generated:17
+-keep class android.support.v7.internal.widget.ScrollingTabContainerView$TabView { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:85
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view AndroidManifest.xml #generated:170
+-keep class cn.jpush.android.service.AlarmReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+-keep class cn.jpush.android.service.DaemonService { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class cn.jpush.android.service.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:147
+-keep class cn.jpush.android.service.PushReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class cn.jpush.android.service.PushService { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class cn.jpush.android.ui.PushActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.alipay.sdk.app.H5PayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:213
+-keep class com.example.lottery.AboutUsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.example.lottery.AboutVersionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.example.lottery.AddBankActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.example.lottery.AddCheckActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class com.example.lottery.BankActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.example.lottery.BankMessageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.example.lottery.ChangPassActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:225
+-keep class com.example.lottery.ChoBuyWayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.example.lottery.CustomerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.example.lottery.DeatilActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:94
+-keep class com.example.lottery.DetailBuyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.example.lottery.FindPasswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.example.lottery.GetMoneyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.example.lottery.HelpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.example.lottery.IntruduceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.example.lottery.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.example.lottery.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.example.lottery.MeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:209
+-keep class com.example.lottery.MessageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:221
+-keep class com.example.lottery.MyWinHistoryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:205
+-keep class com.example.lottery.PaymentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.example.lottery.RechargeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.example.lottery.RecordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class com.example.lottery.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:217
+-keep class com.example.lottery.WinHistoryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.example.lottery.YinLianpayActivity { <init>(...); }
+
+# view res/layout/activity_addbank.xml #generated:60
+# view res/layout/activity_addcheck.xml #generated:49
+# view res/layout/activity_bankmessage.xml #generated:119
+# view res/layout/activity_bankmessage.xml #generated:90
+# view res/layout/activity_changepass.xml #generated:112
+# view res/layout/activity_changepass.xml #generated:56
+# view res/layout/activity_changepass.xml #generated:84
+# view res/layout/activity_findpass.xml #generated:50
+# view res/layout/activity_getmoney.xml #generated:89
+# view res/layout/activity_login.xml #generated:103
+# view res/layout/activity_login.xml #generated:70
+# view res/layout/activity_me.xml #generated:114
+# view res/layout/activity_me.xml #generated:138
+# view res/layout/activity_me.xml #generated:162
+# view res/layout/activity_me.xml #generated:186
+# view res/layout/activity_me.xml #generated:210
+# view res/layout/activity_me.xml #generated:234
+# view res/layout/activity_me.xml #generated:60
+# view res/layout/activity_me.xml #generated:85
+# view res/layout/activity_register.xml #generated:135
+# view res/layout/activity_register.xml #generated:172
+# view res/layout/activity_register.xml #generated:61
+# view res/layout/activity_register.xml #generated:99
+-keep class com.example.myviews.ClearEditText { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:9
+-keep class com.example.myviews.ContralViewPager { <init>(...); }
+
+# view res/layout/activity_message.xml #generated:37
+# view res/layout/activity_my_win_history.xml #generated:121
+# view res/layout/activity_payment.xml #generated:38
+# view res/layout/activity_record.xml #generated:66
+# view res/layout/activity_win_history.xml #generated:118
+# view res/layout/fragement_main.xml #generated:97
+-keep class com.example.myviews.PullToRefreshLayout { <init>(...); }
+
+# view res/layout/list_refresh_view.xml #generated:2
+-keep class com.example.myviews.PullableListView { <init>(...); }
+
+# view res/layout/fragement_me.xml #generated:58
+-keep class com.example.myviews.RoundedImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:175
+-keep class com.example.reciever.MyReceiver { <init>(...); }
+
+# view res/layout/fragement_main.xml #generated:64
+-keep class org.taptwo.android.widget.CircleFlowIndicator { <init>(...); }
+
+# view res/layout/fragement_main.xml #generated:51
+-keep class org.taptwo.android.widget.ViewFlow { <init>(...); }
+
